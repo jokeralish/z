@@ -27,10 +27,10 @@ ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 #ubah mid di dalem admin,owner,creator.json dengan mid kalian
 poll = LinePoll(aditmadzs)
 call = aditmadzs
-creator = ["u874a7502c02896b2edbb3445c2615d35"]
-owner = ["u874a7502c02896b2edbb3445c2615d35"]
-admin = ["u874a7502c02896b2edbb3445c2615d35"]
-staff = ["u874a7502c02896b2edbb3445c2615d35"]
+creator = ["mid"]
+owner = ["mid"]
+admin = ["mid"]
+staff = ["mid"]
 mid = aditmadzs.getProfile().mid
 Amid = ki.getProfile().mid
 KAC = [aditmadzs,ki]
@@ -337,7 +337,7 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╔════════════════════╗" + "\n" + \
-                  " ◄]·✪Aditmadzs✪·[►" + "\n" + \
+                  " ◄]·ALISH JOKER[►" + "\n" + \
                   "╚════════════════════╝" + "\n" + \
                   "╔════════════════════╗" + "\n" + \
                   " ◄]·✪·Menu·✪·[►" + "\n" + \
@@ -448,10 +448,10 @@ def help():
                   "╠❂➣ " + key + "Listprotect\n" + \
                   "╠❂➣ Ketik「 Refresh 」Jika Sudah\n╠❂➣ Menggunakan Command Diatas...\n" + \
                   "╠════════════════════╗" + "\n" + \
-                  " ◄]·✪Aditmadzs✪·[►" + "\n" + \
+                  " ◄]·ALISH JOKER[►" + "\n" + \
                   "╠════════════════════╝" + "\n" + \
                   "╠════════════════════╗" + "\n" + \
-                  "◄]·✪line.me/ti/p/~adit_cmct✪·[►" + "\n" + \
+                  "◄]·✪line.me/ti/p/~INFOALISH✪·[►" + "\n" + \
                   "╚════════════════════╝"
     return helpMessage
     
@@ -461,7 +461,7 @@ def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "╔════════════════════╗" + "\n" + \
-                  " 🍁🍁🍁 Aditmadzs 🍁🍁🍁" + "\n" + \
+                  " 🍁🍁ALISH JOKER🍁🍁" + "\n" + \
                   "╚════════════════════╝" + "\n" + \
                   "╔════════════════════╗" + "\n" + \
                   " ◄]·✪·BOT·✪·[►" + "\n" + \
@@ -518,17 +518,17 @@ def helpbot():
                   "╠❂➣ " + key + "Clearban\n" + \
                   "╠❂➣ " + key + "Refresh\n" + \
                   "╠════════════════════╗" + "\n" + \
-                  "  ◄]·✪Aditmadzs✪·[►" + "\n" + \
+                  "  ◄]·ALISH JOKER[►" + "\n" + \
                   "╠════════════════════╝" + "\n" + \
                   "╠════════════════════╗" + "\n" + \
-                  "◄]·✪line.me/ti/p/~adit_cmct✪·[►" + "\n" + \
+                  "◄]·✪line.me/ti/p/~INFOALISH✪·[►" + "\n" + \
                   "╚════════════════════╝"
     return helpMessage1
     
 def infomeme():
     helpMessage2 = """
 ╔══════════════════════════════╗
-       ◄]·✪Aditmadzs✪·[►
+       ◄]·ALISH JOKER[►
 ╚══════════════════════════════╝
 ╔══════════════════════════════╗
     ◄]·✪·List Meme·✪·[►
@@ -562,17 +562,17 @@ def infomeme():
 ╠❂➣ contoh:
 ╠❂➣ Meme@buzz@lu tau?@gatau
 ╠══════════════════════════════╗
-      ◄]·✪Aditmadzs✪·[►
+      ◄]·ALISH JOKER[►
 ╠══════════════════════════════╝
 ╠══════════════════════════════╗
-◄]·✪line.me/ti/p/~adit_cmct✪·[►
+◄]·✪line.me/ti/p/~infoalish✪·[►
 ╚══════════════════════════════╝
 """
     return helpMessage2
     
 def translate():
     helpTranslate =    "╔══════════════════════════════╗" + "\n" + \
-                       "     🍁🍁🍁 Aditmadzs 🍁🍁🍁" + "\n" + \
+                       "     🍁🍁ALISH JOKER🍁🍁" + "\n" + \
                        "╚══════════════════════════════╝" + "\n" + \
                        "╔══════════════════════════════╗" + "\n" + \
                        "     ◄]·✪·Translate·✪·[►" + "\n" + \
@@ -689,10 +689,10 @@ def translate():
                        "╠❂➣ fil : Filipino" + "\n" + \
                        "╠❂➣ he : Hebrew" + "\n" + \
                        "╠══════════════════════════════╗" + "\n" + \
-                       "  Contoh: tr-en Aditmadzs" + "\n" + \
+                       "  Contoh: tr-en ALISH JOKER" + "\n" + \
                        "╠══════════════════════════════╝" + "\n" + \
                        "╠══════════════════════════════╗" + "\n" + \
-                       "◄]·✪line.me/ti/p/~adit_cmct✪·[►" + "\n" + \
+                       "◄]·✪line.me/ti/p/~infoalish✪·[►" + "\n" + \
                        "╚══════════════════════════════╝"
     return helpTranslate
 
@@ -1570,7 +1570,7 @@ def bot(op):
                                pesan = text.replace(sep[0] + " ","")
                                saya = aditmadzs.getGroupIdsJoined()
                                for group in saya:
-                                   aditmadzs.sendMessage(group,"=======[BROADCAST]=======\n\n"+pesan+"\n\nCreator : line.me/ti/p/~adit_cmct")
+                                   aditmadzs.sendMessage(group,"=======[BROADCAST]=======\n\n"+pesan+"\n\nCreator : line.me/ti/p/~infoalish")
 
                         elif text.lower() == "mykey":
                           if wait["selfbot"] == True:
@@ -4286,7 +4286,7 @@ def bot(op):
                                  for ticket_id in n_links:
                                      group = aditmadzs.findGroupByTicket(ticket_id)
                                      aditmadzs.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     aditmadzs.sendMessage(msg.to, "AditmadzsOTW MASUK KE GROUP : %s" % str(group.name))
+                                     aditmadzs.sendMessage(msg.to, "alishOTW MASUK KE GROUP : %s" % str(group.name))
                                      group1 = ki.findGroupByTicket(ticket_id)
                                      ki.acceptGroupInvitationByTicket(group1.id,ticket_id)
                                      ki.sendMessage(msg.to, "Aditmadzs OTW MASUK KE GROUP : %s" % str(group.name))
